@@ -1,0 +1,15 @@
+In this problem we consider a matrix in which each cell represents
+a number. That number is considered as the time taken for a
+person to cross that path. This solution can be used in real time
+problems like Google Maps, Ship routes, Airplane routes to reach
+in minimum time etc. In this problem we have used the concept of
+“DYNAMIC PROGRAMING”. 
+
+The main key governing the program is using the concept of
+MEMOIZATION”. “It is a type of dynamic programming in
+which each cell is filled corresponding to its adjacent cells finding
+the minimum of the adjacent cells and adding the time taken by
+that path. That is: -
+min(tc[i][j-1], tc[i-1] [j], tc[i-1] [j-1]) + timetaken(tc[i][j])
+And after storing all the values we can find the minimum time
+taken to reach a given point. 
